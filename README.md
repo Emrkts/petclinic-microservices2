@@ -1050,7 +1050,7 @@ git checkout feature/msp-14
 ```
 ```bash
 PATH="$PATH:/usr/local/bin"
-APP_REPO_NAME="clarusway-repo/petclinic-app-dev"
+APP_REPO_NAME="clarusway-repo/petclinic-app-deneme"
 AWS_REGION="us-east-1"
 
 aws ecr describe-repositories --region ${AWS_REGION} --repository-name ${APP_REPO_NAME} || \
