@@ -1487,6 +1487,7 @@ ANS_KEYPAIR="petclinic-ansible-test-dev.key"
 PATH="$PATH:/usr/local/bin"
 export ANSIBLE_PRIVATE_KEY_FILE="${WORKSPACE}/${ANS_KEYPAIR}"
 export ANSIBLE_HOST_KEY_CHECKING=False
+export PATH="$HOME/.local/bin:$PATH"
 ansible-inventory -v -i ./ansible/inventory/dev_stack_dynamic_inventory_aws_ec2.yaml --graph
 ```
   * Click `Save`
