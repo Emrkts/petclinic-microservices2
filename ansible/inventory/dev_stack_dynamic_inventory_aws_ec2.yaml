@@ -1,5 +1,4 @@
 plugin: aws_ec2
-ansible_python_interpreter: /usr/bin/python3
 regions:
   - "us-east-1"
 filters:
@@ -14,4 +13,4 @@ keyed_groups:
 hostnames:
   - "ip-address"
 compose:
-  ansible_user: "'emrewsl'"
+  ansible_user: "'ubuntu'"
