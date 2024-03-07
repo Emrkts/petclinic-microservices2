@@ -14,4 +14,4 @@ keyed_groups:
 hostnames:
   - "ip-address"
 compose:
-  ansible_user: "'ubuntu'"
+  ansible_user: "'emrewsl'"
